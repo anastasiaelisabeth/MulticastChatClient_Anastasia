@@ -10,7 +10,7 @@ public class MulticastChatClient {
             throws Exception {
 
         //Default port number we are going to use
-        int portnumber = 5000;
+        int portnumber = 5010;
         if (args.length >= 1) {
             portnumber = Integer.parseInt(args[0]);
         }
